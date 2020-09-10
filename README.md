@@ -20,3 +20,19 @@ Please follow the below instructions on how to submit your answers.
 Given the following dataset in `ClusterPlot.csv`, determine the number of clusters by using any clustering algorithm. **You're allowed to use any Python library you want to implement this**, just document which ones you used in this README file. Try to complete this as soon as possible.
 
 Regardless if you can or cannot answer the question, provide a short explanation of how you got your solution or how you think it can be solved in your README.md file.
+
+## Daniel Segundo - ACM Research Coding Challenge - Question #1
+
+At first glance the question seems to be asking to find the number of clusters, which to me says
+to find the total number of points. Looking at the .csv file, there are 151 rows, 150 of which correspond
+to a unique point. Therefore, my solution is to import the .csv file and count the number of rows with data.
+
+## To solve:
+  Import the pandas library (as pd)
+  use pd.read_csv() to read the .csv file
+  use len() to find the number of rows
+  print the number of rows
+  
+## Sources used:
+https://www.datacamp.com/community/tutorials/pandas-read-csv
+https://www.kite.com/python/answers/how-to-count-the-number-of-lines-in-a-csv-file-in-python
