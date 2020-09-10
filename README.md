@@ -28,10 +28,10 @@ to find the total number of points. Looking at the .csv file, there are 151 rows
 to a unique point. Therefore, my solution is to import the .csv file and count the number of rows with data.
 
 ## To solve:
-  Import the pandas library (as pd)
-  use pd.read_csv() to read the .csv file
-  use len() to find the number of rows
-  print the number of rows
+1. Import the pandas library (as pd)
+2. use pd.read_csv() to read the .csv file
+3. use len() to find the number of rows
+4. print the number of rows
   
 ## Sources used:
 https://www.datacamp.com/community/tutorials/pandas-read-csv
